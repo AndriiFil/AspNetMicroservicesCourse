@@ -1,7 +1,6 @@
 ﻿using Catalog.API.Data;
 using Catalog.API.Entities;
 using MongoDB.Driver;
-using MongoDB.Driver.Core.Operations;
 
 namespace Catalog.API.Repositories
 {
@@ -25,7 +24,7 @@ namespace Catalog.API.Repositories
                            .Products
                            .Find(p => p.Id == id)
                            .FirstOrDefaultAsync();
-        }
+        }   
 
         public async Task<IEnumerable<Product>> GetProductByName(string name)
         {
