@@ -19,7 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{6D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{3E160CE2-B806-4D1B-A6C8-46C7F51D5E51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{FAFB4830-BA2D-4DE8-B1DE-D6E3319D863F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{FAFB4830-BA2D-4DE8-B1DE-D6E3319D863F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{0EFC1BDB-579A-446B-BC04-BD399A5259D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Services\Ordering\Ordering.API\Ordering.API.csproj", "{0B247B48-D793-40BF-9B61-A9FFD2953159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{FAFB4830-BA2D-4DE8-B1DE-D6E3319D863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAFB4830-BA2D-4DE8-B1DE-D6E3319D863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAFB4830-BA2D-4DE8-B1DE-D6E3319D863F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B247B48-D793-40BF-9B61-A9FFD2953159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B247B48-D793-40BF-9B61-A9FFD2953159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B247B48-D793-40BF-9B61-A9FFD2953159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B247B48-D793-40BF-9B61-A9FFD2953159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{6DC6E95E-1013-471E-9244-B5502D4959CC} = {B2E1E2D7-B698-49C0-963C-2C4AF1A65C4D}
 		{3E160CE2-B806-4D1B-A6C8-46C7F51D5E51} = {6DC6E95E-1013-471E-9244-B5502D4959CC}
 		{FAFB4830-BA2D-4DE8-B1DE-D6E3319D863F} = {6DC6E95E-1013-471E-9244-B5502D4959CC}
+		{0EFC1BDB-579A-446B-BC04-BD399A5259D9} = {B2E1E2D7-B698-49C0-963C-2C4AF1A65C4D}
+		{0B247B48-D793-40BF-9B61-A9FFD2953159} = {0EFC1BDB-579A-446B-BC04-BD399A5259D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB0CB25D-F26A-48FF-8D1A-D8D25C85E125}
